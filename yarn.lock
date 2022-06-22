@@ -686,6 +686,13 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
+"@nestjs/axios@0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@nestjs/axios/-/axios-0.0.5.tgz#a2470cf38f7f29dbd9a6288a234a6ee60588aad6"
+  integrity sha512-kpgCX6JAXcntj+4fk5Sk7Nu6HXvyOKyhRgnuaIQpwbcdthrPfOBVmJo+ZJf2bbSze+YaoodeH9Fe1WkSiN1xrg==
+  dependencies:
+    axios "0.25.0"
+
 "@nestjs/cli@^8.0.0":
   version "8.2.6"
   resolved "https://registry.yarnpkg.com/@nestjs/cli/-/cli-8.2.6.tgz#915aef9c1c025280ab8ebc915530fa0090bcbe49"
@@ -1594,6 +1601,13 @@ axe-core@^4.3.5:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.4.2.tgz#dcf7fb6dea866166c3eab33d68208afe4d5f670c"
   integrity sha512-LVAaGp/wkkgYJcjmHsoKx4juT1aQvJyPcW09MLCjVTh3V2cc6PnyempiLMNH5iMdfIX/zdbjUx2KDjMLCTdPeA==
+
+axios@0.25.0:
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.25.0.tgz#349cfbb31331a9b4453190791760a8d35b093e0a"
+  integrity sha512-cD8FOb0tRH3uuEe6+evtAbgJtfxr7ly3fQjYcMcuPlgkwVS9xboaVIpcDV+cYQe+yGykgwZCs1pzjntcGa6l5g==
+  dependencies:
+    follow-redirects "^1.14.7"
 
 axios@0.27.2:
   version "0.27.2"
@@ -2875,7 +2889,7 @@ flatted@^3.1.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.5.tgz#76c8584f4fc843db64702a6bd04ab7a8bd666da3"
   integrity sha512-WIWGi2L3DyTUvUrwRKgGi9TwxQMUEqPOPQBVi71R96jZXJdFskXEmf54BoZaS1kknGODoIGASGEzBUYdyMCBJg==
 
-follow-redirects@^1.14.9:
+follow-redirects@^1.14.7, follow-redirects@^1.14.9:
   version "1.15.1"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.1.tgz#0ca6a452306c9b276e4d3127483e29575e207ad5"
   integrity sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA==
@@ -4013,6 +4027,16 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
+lodash.compact@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/lodash.compact/-/lodash.compact-3.0.1.tgz#540ce3837745975807471e16b4a2ba21e7256ca5"
+  integrity sha512-2ozeiPi+5eBXW1CLtzjk8XQFhQOEMwwfxblqeq6EGyTxZJ1bPATqilY0e6g2SLQpP4KuMeuioBhEnWz5Pr7ICQ==
+
+lodash.flattendeep@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/lodash.flattendeep/-/lodash.flattendeep-4.4.0.tgz#fb030917f86a3134e5bc9bec0d69e0013ddfedb2"
+  integrity sha512-uHaJFihxmJcEX3kT4I23ABqKKalJ/zDrDg0lsFtc1h+3uw49SIJ5beyhx5ExVRti3AvKoOJngIj7xz3oylPdWQ==
+
 lodash.memoize@4.x:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
@@ -4224,6 +4248,14 @@ neo-async@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
+
+nestjs-command@3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/nestjs-command/-/nestjs-command-3.1.1.tgz#26e11cef4b3f588a63d20fdf32da7e18e61d774a"
+  integrity sha512-jis8nS0QNZkw35BzBlkkOqty4BJcomUZdmIyne+HjSdk0CwIy6PzXkhGiUIPySBwoK/6d4OxjFQckVoNB/H0TA==
+  dependencies:
+    lodash.compact "^3.0.1"
+    lodash.flattendeep "^4.4.0"
 
 next-transpile-modules@9.0.0:
   version "9.0.0"
